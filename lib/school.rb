@@ -43,8 +43,11 @@ class School
       @roster[grade] = []
     end
     @roster[grade] << name
+    # can also be written as @roster[grade] = [] if @roster[grade].nil?
+    #                        @roster[grade].push(name)
   end
 
+  
 
 
 end
